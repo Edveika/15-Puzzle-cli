@@ -42,10 +42,10 @@ git clone https://github.com/YourUsername/15-puzzle-cli.git
 
 ## Contributing
 
-Contributions to this project are welcome! If you encounter issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+Contributions are not actively sought for this project as it serves as a personal learning project. However, feel free to fork the repository and experiment with your own modifications.
 
 ## License
 
-This project is licensed under the GPL v2 License.
+This project is licensed under the GPL v2 [LICENSE](LICENSE).
 
 _Enjoy the challenge of solving the 15 Puzzle!_
