@@ -35,6 +35,8 @@ git clone https://github.com/YourUsername/15-puzzle-cli.git
 
 2. Compile it using Visual Studio
 
+NOTE: this game was coded on Windows, console clearing will not work on linux, you have to change this [line](https://github.com/Edveika/15-Puzzle-cli/blob/f4f08b4a525bd3acef7d3a1049fb8c5eebc60f39/15%20Puzzle-cli/Src/Game/Game.cpp#L38C2-L38C16) to clear instead of cls
+
 ## How to Play
 
 - Use the keyboard keys `w`, `a`, `s`, and `d` to slide tiles in the up, left, down, and right directions, respectively.
