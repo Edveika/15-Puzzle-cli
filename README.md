@@ -7,7 +7,8 @@ Welcome to the 15 Puzzle Command-Line Game repository! This project implements t
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
+- [Downloading the game](#downloading-the-game)
+- [Compiling from source](#compiling-from-source)
 - [How to Play](#how-to-play)
 - [Contributing](#contributing)
 - [License](#license)
@@ -26,14 +27,19 @@ The 15 Puzzle, also known as the "Fifteen Game," is a sliding puzzle where playe
 - Time tracking using a simple Timer class.
 - Victory check to determine when the puzzle is solved.
 
-## Getting Started
+# Downloading the game
 
-To get started with the 15 Puzzle game, follow these steps:
+1. Download 15-Puzzle.exe from [releases](https://github.com/Edveika/15-Puzzle-cli/releases/tag/1.0)
 
-1. Clone the repository to your local machine using the following command:
-git clone https://github.com/YourUsername/15-puzzle-cli.git
+2. Run .exe
+
+## Compiling from source
+
+1. Clone the repository to your local machine
 
 2. Compile it using Visual Studio
+
+3. Run the .exe
 
 NOTE: this game was coded on Windows, console clearing will not work on linux, you have to change this [line](https://github.com/Edveika/15-Puzzle-cli/blob/f4f08b4a525bd3acef7d3a1049fb8c5eebc60f39/15%20Puzzle-cli/Src/Game/Game.cpp#L38C2-L38C16) to clear instead of cls
 
@@ -41,10 +47,6 @@ NOTE: this game was coded on Windows, console clearing will not work on linux, y
 
 - Use the keyboard keys `w`, `a`, `s`, and `d` to slide tiles in the up, left, down, and right directions, respectively.
 - The goal is to arrange the tiles in ascending numerical order, with the empty space at the bottom-right corner.
-
-## Contributing
-
-Contributions are not actively sought for this project as it serves as a personal learning project. However, feel free to fork the repository and experiment with your own modifications.
 
 ## License
 
