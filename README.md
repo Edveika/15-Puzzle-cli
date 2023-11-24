@@ -1,10 +1,10 @@
-# 15-Puzzle-cli
+# 🧩 15-Puzzle-cli
 
 Welcome to the 15 Puzzle Command-Line Game repository! This project implements the classic 15 Puzzle game in C++. The game challenges players to rearrange the numbered tiles to form the correct numerical order.
 
 ![Screenshot 2023-08-23 180209](https://github.com/Edveika/15-Puzzle-cli/assets/113787144/63da464a-ab7b-48bd-af40-98a52c604dfa)
 
-## Table of Contents
+## 📔 Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [How to Play](#how-to-play)
@@ -12,11 +12,11 @@ Welcome to the 15 Puzzle Command-Line Game repository! This project implements t
 - [Compiling from source](#compiling-from-source)
 - [License](#license)
 
-## Introduction
+## ℹ️ Introduction
 
 The 15 Puzzle, also known as the "Fifteen Game," is a sliding puzzle where players must move tiles into an empty space, one move at a time, to arrange the tiles in the correct numerical sequence.
 
-## Features
+## 📑 Features
 
 - Text-based command-line interface for gameplay.
 - Modular code structure for easy expansion and maintenance.
@@ -26,18 +26,18 @@ The 15 Puzzle, also known as the "Fifteen Game," is a sliding puzzle where playe
 - Time tracking using a simple Timer class.
 - Victory check to determine when the puzzle is solved.
 
-## How to Play
+## 🕹️ How to Play
 
 - Use the keyboard keys `w`, `a`, `s`, and `d` to slide tiles in the up, left, down, and right directions, respectively.
 - The goal is to arrange the tiles in ascending numerical order, with the empty space at the bottom-right corner.
 
-# Downloading the game
+# 🎯 Downloading the game
 
 1. Download 15-Puzzle.exe from [releases](https://github.com/Edveika/15-Puzzle-cli/releases/tag/1.0)
 
 2. Run .exe
 
-## Compiling from source
+## 🖥️ Compiling from source
 
 1. Clone the repository to your local machine
 
@@ -47,7 +47,7 @@ The 15 Puzzle, also known as the "Fifteen Game," is a sliding puzzle where playe
 
 NOTE: this game was coded on Windows, console clearing will not work on linux, you have to change this [line](https://github.com/Edveika/15-Puzzle-cli/blob/f4f08b4a525bd3acef7d3a1049fb8c5eebc60f39/15%20Puzzle-cli/Src/Game/Game.cpp#L38C2-L38C16) to clear instead of cls
 
-## License
+## 📜 License
 
 This project is licensed under the GPL v2 [LICENSE](LICENSE).
 
